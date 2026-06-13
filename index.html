@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilal Al Rahbi | Communications & Signal Processing Engineer</title>
+    <meta name="description" content="Portfolio website of Bilal Al Rahbi, Communications and Signal Processing Engineer specialized in AI, DSP, Wireless Communications and Embedded Systems.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="scroll-progress"></div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                Bilal<span>Hub</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about" data-key="nav-about">About</a></li>
+                <li><a href="#education" data-key="nav-education">Education</a></li>
+                <li><a href="#experience" data-key="nav-experience">Internship</a></li>
+                <li><a href="#project" data-key="nav-project">Project</a></li>
+                <li><a href="#skills" data-key="nav-skills">Skills</a></li>
+                <li><a href="#certifications" data-key="nav-certs">Certifications</a></li>
+                <li><a href="#contact" data-key="nav-contact">Contact</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button id="lang-btn" class="lang-btn">العربية</button>
+                <button id="mode-btn" class="theme-btn">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="hero">
+        <div class="floating-circle c1"></div>
+        <div class="floating-circle c2"></div>
+        <div class="floating-circle c3"></div>
+        <div class="hero-content">
+            <div class="profile-image">
+                <img src="assets/profile.png" alt="Bilal Al Rahbi">
+            </div>
+            <div class="hero-badge" data-key="hero-badge">
+                Communications & Signal Processing Engineer
+            </div>
+            <h1 data-key="hero-title">Bilal Muslem Al Rahbi</h1>
+            <p class="hero-subtitle" data-key="hero-subtitle">
+                Communications & Signal Processing Engineering Graduate
+            </p>
+            <p class="hero-description" data-key="hero-description">
+                Passionate about Artificial Intelligence, Digital Signal Processing,
+                Wireless Communications, Embedded Systems, and solving real-world
+                engineering challenges through innovative technologies.
+            </p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary" data-key="contact-btn">Contact Me</a>
+                <a href="assets/Bilal_Al_Rahbi_Resume.pdf" download="Bilal_Al_Rahbi_Resume.pdf" class="btn btn-secondary" data-key="resume-btn">
+                    <i class="fa-solid fa-arrow-down"></i> Download CV
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-key="about-title">About Me</h2>
+            </div>
+            <div class="about-card">
+                <p data-key="about-text">
+                    Communications and Signal Processing Engineer with strong academic and practical experience in Digital Signal Processing, Wireless Communications, Optical Networks, Artificial Intelligence, and Embedded Systems. Passionate about continuous learning, innovation, and developing smart engineering solutions that create real-world impact.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section id="education" class="section alt-section">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-key="education-title">Education</h2>
+            </div>
+            <div class="card education-card">
+                <div class="education-info">
+                    <h3 data-key="edu-university">Sultan Qaboos University</h3>
+                    <p data-key="edu-degree">Bachelor of Communications & Signal Processing Engineering</p>
+                    <span class="badge">2026</span>
+                </div>
+                <div class="education-action">
+                    <a href="assets/Bilal_Al_Rahbi_Transcript.pdf" target="_blank" class="btn btn-secondary-dark" data-key="preview-transcript-btn">
+                        <i class="fa-solid fa-file-invoice"></i> Academic Transcript
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-key="experience-title">Professional Internship</h2>
+            </div>
+            <div class="card">
+                <h3 data-key="intern-role">Telecommunications & Electronics Intern</h3>
+                <h4 data-key="intern-company">Ibra Hospital</h4>
+                <ul class="modern-list">
+                    <li data-key="intern-1">Maintenance and troubleshooting of UPS systems.</li>
+                    <li data-key="intern-2">Structured cabling installation and testing.</li>
+                    <li data-key="intern-3">DECT and nurse call systems support.</li>
+                    <li data-key="intern-4">Access control system configuration and maintenance.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECT SECTION -->
+    <section id="project" class="section alt-section">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-key="project-title">Final Year Project</h2>
+            </div>
+            <div class="project-grid-layout">
+                <div class="project-card">
+                    <h3 data-key="project-name">Speaker Identification System</h3>
+                    <p data-key="project-desc">
+                        Developed an intelligent speaker identification system using Artificial Neural Networks (ANN), Gaussian Mixture Models (GMM), MFCC feature extraction and MATLAB GUI.
+                    </p>
+                    <div class="project-stats">
+                        <div class="stat-box">
+                            <h4>95-100%</h4>
+                            <span>Accuracy</span>
+                        </div>
+                        <div class="stat-box">
+                            <h4>ANN</h4>
+                            <span>AI Model</span>
+                        </div>
+                        <div class="stat-box">
+                            <h4>MATLAB</h4>
+                            <span>Platform</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-gallery-card">
+                    <h4 data-key="gallery-title">System GUI & Signals Interface</h4>
+                    <div class="screenshot-container">
+                        <img src="assets/GUI.png" alt="Speaker Identification System MATLAB GUI" class="project-screenshot">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-key="skills-title">Skills</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fa-solid fa-tower-cell skill-icon"></i>
+                    <h3>Communications</h3>
+                    <ul>
+                        <li>Wireless Communications</li>
+                        <li>Optical Communications</li>
+                        <li>Antenna Systems</li>
+                        <li>Network Security</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-wave-square skill-icon"></i>
+                    <h3>DSP & AI</h3>
+                    <ul>
+                        <li>Digital Signal Processing</li>
+                        <li>Feature Extraction</li>
+                        <li>ANN</li>
+                        <li>Machine Learning</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-laptop-code skill-icon"></i>
+                    <h3>Software</h3>
+                    <ul>
+                        <li>MATLAB</li>
+                        <li>Simulink</li>
+                        <li>Arduino</li>
+                        <li>Proteus</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CERTIFICATIONS SECTION -->
+    <section id="certifications" class="section alt-section">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-key="certifications-title">Professional Certifications</h2>
+            </div>
+            <div class="certs-grid">
+                <div class="cert-card">
+                    <div class="cert-icon-box">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <h3 data-key="cert1-title">Introduction to Electrical Distribution System</h3>
+                    <div class="action-buttons-group">
+                        <a href="assets/Electric_Distribution_Certificate.pdf" target="_blank" class="action-link preview-link">
+                            <i class="fa-solid fa-eye"></i> <span data-key="btn-preview">Preview</span>
+                        </a>
+                        <a href="assets/Electric_Distribution_Certificate.pdf" download="Electric_Distribution_Certificate.pdf" class="action-link download-link">
+                            <i class="fa-solid fa-arrow-down"></i> <span data-key="btn-download">Download</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon-box">
+                        <i class="fa-solid fa-gears"></i>
+                    </div>
+                    <h3 data-key="cert2-title">PLC Basics Workshop</h3>
+                    <div class="action-buttons-group">
+                        <a href="assets/PLC_Basics_Certificate.pdf" target="_blank" class="action-link preview-link">
+                            <i class="fa-solid fa-eye"></i> <span data-key="btn-preview">Preview</span>
+                        </a>
+                        <a href="assets/PLC_Basics_Certificate.pdf" download="PLC_Basics_Certificate.pdf" class="action-link download-link">
+                            <i class="fa-solid fa-arrow-down"></i> <span data-key="btn-download">Download</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT & FOOTER SECTION -->
+    <footer id="contact">
+        <div class="container">
+            <h2 data-key="contact-title">Let's Build Something Great Together</h2>
+            <div class="contact-grid">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=alrahbibilal@gmail.com" target="_blank" class="contact-item email-box">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>alrahbibilal@gmail.com</span>
+                </a>
+                <a href="tel:+96879952202" class="contact-item phone-box">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>+968 79952202</span>
+                </a>
+                <a href="https://linkedin.com/in/bilal-al-rahbi-099b60351" target="_blank" class="contact-item linkedin-box">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/B1lal02x" target="_blank" class="contact-item github-box">
+                    <i class="fa-brands fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <div class="contact-item location-box">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Muscat, Oman</span>
+                </div>
+            </div>
+            <p class="copyright">
+                © 2026 Bilal Al Rahbi. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    <button id="topBtn">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
